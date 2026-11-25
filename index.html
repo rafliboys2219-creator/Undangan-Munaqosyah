@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Sidang Munaqosyah</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #1b4332;
+            --accent: #d4a373;
+            --bg: #f8f9fa;
+            --card-bg: #ffffff;
+            --text-main: #2b2d42;
+            --text-muted: #6c757d;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: var(--bg);
+            color: var(--text-main);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 20px;
+            background-image: radial-gradient(#d4a373 0.5px, transparent 0.5px), radial-gradient(#d4a373 0.5px, #f8f9fa 0.5px);
+            background-size: 20px 20px;
+            background-position: 0 0, 10px 10px;
+        }
+
+        .card {
+            background: var(--card-bg);
+            max-width: 520px;
+            width: 100%;
+            border-radius: 16px;
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.08);
+            overflow: hidden;
+            border: 1px solid rgba(212, 163, 115, 0.3);
+            position: relative;
+        }
+
+        .header-banner {
+            background-color: var(--primary);
+            color: #ffffff;
+            text-align: center;
+            padding: 36px 24px 28px;
+            border-bottom: 4px solid var(--accent);
+        }
+
+        .header-banner p {
+            font-size: 0.85rem;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: var(--accent);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .header-banner h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.85rem;
+            font-weight: 700;
+            line-height: 1.2;
+        }
+
+        .content {
+            padding: 32px 28px;
+            text-align: center;
+        }
+
+        .salam {
+            font-style: italic;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 12px;
+            font-size: 0.95rem;
+        }
+
+        .intro-text {
+            font-size: 0.92rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .student-info {
+            background-color: #fdfbf7;
+            border: 1px solid #f0e6d2;
+            border-radius: 12px;
+            padding: 20px;
+            margin-bottom: 24px;
+        }
+
+        .student-name {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.45rem;
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+
+        .student-nim {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 14px;
+            font-weight: 500;
+        }
+
+        .thesis-title {
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-main);
+            line-height: 1.5;
+            padding-top: 12px;
+            border-top: 1px dashed #d4a373;
+        }
+
+        .details-box {
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        .detail-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 14px;
+            font-size: 0.92rem;
+        }
+
+        .detail-label {
+            width: 110px;
+            font-weight: 600;
+            color: var(--primary);
+            flex-shrink: 0;
+        }
+
+        .detail-value {
+            color: var(--text-main);
+            line-height: 1.4;
+        }
+
+        .closing-text {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            color: var(--text-muted);
+            margin-bottom: 24px;
+        }
+
+        .btn-calendar {
+            display: inline-block;
+            background-color: var(--primary);
+            color: #ffffff;
+            text-decoration: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            transition: background-color 0.2s ease;
+        }
+
+        .btn-calendar:hover {
+            background-color: #122e22;
+        }
+
+        .footer {
+            background-color: #f1f3f5;
+            padding: 14px;
+            text-align: center;
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <div class="header-banner">
+            <p>Undangan Terbuka</p>
+            <h1>Sidang Munaqosyah</h1>
+        </div>
+
+        <div class="content">
+            <div class="salam">Assalamu'alaikum Warahmatullahi Wabarakatuh</div>
+            <p class="intro-text">
+                Dengan memohon rahmat dan ridho Allah SWT, saya bermaksud mengundang Saudara/i untuk hadir dalam ujian sidang skripsi saya:
+            </p>
+
+            <div class="student-info">
+                
+                <div class="student-name">M. Sobirin Abduh Rafli, S.I.Pol.</div>
+                <div class="student-nim">NIM. 2230702132| Program Studi Ilmu Politik</div>
+                <div class="thesis-title">
+                    "INTERSEKSI KEPENTINGAN POLITIK DALAM PENGELOLAAN KAWASAN BENTENG KUTO BESAK KOTA PALEMBANG"
+                </div>
+            </div>
+
+            <div class="details-box">
+                <div class="detail-item">
+                    <div class="detail-label">Hari, Tanggal</div>
+                    <div class="detail-value"><strong>Kamis, 26 November 2026</strong></div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Waktu</div>
+                    <div class="detail-value">16.00 WIB – Selesai</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Tempat</div>
+                    <div class="detail-value">Ruang Rapat Prodi Ilmu Politik<br>Universitas Islam Negeri Raden Fatah Palembang</div>
+                </div>
+            </div>
+
+            <p class="closing-text">
+                Merupakan suatu kehormatan dan kebahagiaan bagi saya apabila Saudara/i berkenan hadir dan memberikan doa restu.
+            </p>
+
+            <!-- Tautan otomatis menyimpan jadwal ke Google Calendar -->
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Sidang+Munaqosyah&dates=20261126T020000Z/20261126T040000Z&details=Sidang+Munaqosyah+Skripsi&location=Ruang+Sidang+Fakultas" target="_blank" class="btn-calendar">
+                Simpan ke Google Calendar
+            </a>
+        </div>
+
+        <div class="footer">
+            Wassalamu'alaikum Warahmatullahi Wabarakatuh
+        </div>
+    </div>
+
+</body>
+</html>
